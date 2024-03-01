@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IP Tracker</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="container">
+            <h1>IP Tracker</h1> 
+            <p class="description">Este es un proyecto que permite buscar la ubicación de una IP específica utilizando la API de GeoIP. Puedes ingresar una IP en el campo de búsqueda y obtendrás información sobre su país y ciudad. Además, podrás ver una representación gráfica de la ubicación en un mapa interactivo.</p> <!-- Descripción breve del proyecto -->
+            <div class="input-container">
+                <input type="text" id="getID" placeholder="Ingresa una direcion IP" class="search-input"> 
+            </div>
+            <div class="input-container">
+                <button id="btnSearch"><i class="fas fa-search"></i>Buscar</button>
+            </div>
+            <div id="myMap"></div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+</html>
+

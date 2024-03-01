@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f39c12; /* Color de fondo amarillo casi naranja */
+    color: #333;
+    margin: 0 20px; /* Margen a los lados */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Altura total de la ventana */
+}
+
+.main-container {
+    background-color: #8e44ad; /* Color de fondo azul violeta */
+    padding: 20px;
+    max-width: 100%; /* Ancho máximo */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white; /* Fondo blanco */
+    padding: 20px; /* Padding para evitar que esté tan pegada */
+}
+
+.description {
+    margin: 10px; /* Margen para el párrafo */
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+}
+
+.search-input {
+    padding: 15px; /* Más espacio en el input */
+    border-radius: 20px; /* Border radius redondeado */
+}
+
+#getID {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#myMap {
+    width: 70vw; /* Hacer el div más cuadrado */
+    height: 50vh; /* Altura limitada para evitar scroll */
+    margin-top: 20px;
+    border-radius: 10px; /* Border radius significativo */
+}
+
+#btnSearch {
+    padding: 15px 40px; /* Botón más ancho */
+    background-color: #f39c12; /* Color anaranjado */
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#btnSearch:hover {
+    background-color: #e67e22; /* Efecto al pasar el cursor */
+}
